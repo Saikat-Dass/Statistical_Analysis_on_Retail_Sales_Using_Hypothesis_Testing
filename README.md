@@ -109,7 +109,7 @@ f_statistics, p_value = f_oneway(South, West, Central, East)
 print("Value of F-Statistics = ",f_statistics,
       "\nP Value = ",p_value)
 ```
-![result]()
+![result](https://github.com/Saikat-Dass/Statistical_Analysis_on_Retail_Sales_Using_Hypothesis_Testing/blob/47ad99d423596e80bf792ff4fe083a59958636c4/Hypothesis%20Testing/Project%20Image/Annova%20f%20statistics%2C%20p%20value.png)
 
 <h2>Result Interpretation :</h2>
 
