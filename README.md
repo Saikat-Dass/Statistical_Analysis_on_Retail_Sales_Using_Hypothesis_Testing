@@ -2,7 +2,7 @@
 
 <h2>Overview :</h2>
 
-This repository contains a statistical analysis project that applies Hypothesis Testing techniques on a Retail Sales dataset. The goal of this project is to understand how different business factors such as Region, Category and Discount Strategies influence Sales Performance and Customer BehavioUr.
+This repository contains a statistical analysis project that applies Hypothesis Testing techniques on a Retail Sales dataset. The goal of this project is to understand how different business factors such as Region, Category and Discount Strategies influence Sales Performance and Customer Behaviour.
 
 This project demonstrates the complete Data Analysis workflow including Data Exploration, Data Visualization, Hypothesis Testing and Interpretation of Statistical results.
 
