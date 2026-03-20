@@ -2,9 +2,9 @@
 
 <h2>Overview :</h2>
 
-This repository contains a statistical analysis project that applies hypothesis testing techniques on a retail sales dataset. The goal of this project is to understand how different business factors such as region, category, and discount strategies influence sales performance and customer behavior.
+This repository contains a statistical analysis project that applies Hypothesis Testing techniques on a Retail Sales dataset. The goal of this project is to understand how different business factors such as Region, Category and Discount Strategies influence Sales Performance and Customer BehavioUr.
 
-This project demonstrates the complete data analysis workflow, including data exploration, data visualization, hypothesis testing, and interpretation of statistical results.
+This project demonstrates the complete Data Analysis workflow including Data Exploration, Data Visualization, Hypothesis Testing and Interpretation of Statistical results.
 
 <h2>Tools used for the analysis :</h2>
 
@@ -37,7 +37,6 @@ from statsmodels.stats.multicomp import pairwise_tukeyhsd
 
 ```python
 data = pd.read_excel("C:\\Users\\ADMIN\\Saikat VS\\Hypothesis Testing\\Raw Sales Data.xlsx")
-data
 ```
 
 <h2>Exploratory Data Analysis :</h2>
@@ -131,15 +130,16 @@ As the 'P Value' is <0.05 so Tukey’s Honest Significant Difference Test is per
 tukey = pairwise_tukeyhsd(endog=data['Discount'], groups=data['Region'], alpha=0.05)
 print(tukey)
 ```
-![result]()
+![result](https://github.com/Saikat-Dass/Statistical_Analysis_on_Retail_Sales_Using_Hypothesis_Testing/blob/efa878544e107f99f0ba16244442d12c290f117e/Hypothesis%20Testing/Project%20Image/Tukey's%20HSD%20test%20Values.png)
+
 Insight : This test identifies which Specific Regions Differ significantly from Each Other in terms of Discounts.
 
 <h2>Key Insights of the Research</h2>
 
-1. Sales performance is similar across regions
-2. Category distribution is independent of region
-3. Discount strategies vary significantly across regions
-4. Central region shows higher discount variability
+1. Sales performance is similar across Regions
+2. Category Distribution is Independent of Region
+3. Discount strategies Vary significantly across Regions
+4. Central Region shows Higher Discount variability
 
 <h2>Challenges Faced :</h2>
 
@@ -149,8 +149,8 @@ Insight : This test identifies which Specific Regions Differ significantly from 
 
 <h2>Conclusion :</h2>
 
-This project demonstrates how hypothesis testing techniques such as T-Test, Chi-Square, ANOVA, and Tukey HSD can be used to extract meaningful business insights from retail sales data.
+This project demonstrates how hypothesis testing techniques such as T-Test, Chi-Square Test, ANOVA Test and Tukey's HSD Test can be used to extract meaningful business insights from retail sales data.
 
-The analysis highlights how statistical methods can support decision-making in pricing strategies, regional performance evaluation, and business optimization.
+The analysis highlights how statistical methods can support decision-making in pricing strategies, regional performance evaluation and business optimization.
 
-This project strengthens skills in data analysis, statistical thinking, and real-world business problem solving using Python.
+This project strengthens skills in data analysis, statistical thinking and real-world business problem solving using Python.
