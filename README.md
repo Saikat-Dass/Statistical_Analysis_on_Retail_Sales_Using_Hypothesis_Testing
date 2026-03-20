@@ -119,7 +119,8 @@ if p_value<0.05:
 else:
     print("Fail to Reject Null Hypothesis")
 ```
-![result]()
+![result](https://github.com/Saikat-Dass/Statistical_Analysis_on_Retail_Sales_Using_Hypothesis_Testing/blob/11751b119173f82f65087fb64014fccf5e6b9eb7/Hypothesis%20Testing/Project%20Image/Annova%20p%20value%20result.png)
+
 Insight : There is a statistically significant Difference in Discount Distribution Across The Four Regions.
 
 <h2>Tukey’s Honest Significant Difference (HSD) Test :</h2>
