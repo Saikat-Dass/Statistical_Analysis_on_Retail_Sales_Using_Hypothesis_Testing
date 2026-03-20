@@ -84,7 +84,7 @@ print("Chi-Square: ",Chi2,
       "\nAlpha: ",alpha
       )
 ```
-![print]()
+![print](https://github.com/Saikat-Dass/Statistical_Analysis_on_Retail_Sales_Using_Hypothesis_Testing/blob/1ab9bb26055160c636db752ca7bcd4752204ab94/Hypothesis%20Testing/Project%20Image/chi%202%20%2C%20p%20value%2C%20dof%2C%20alpha.png)
 
 <h2>Result Interpretation :</h2>
 
@@ -94,7 +94,8 @@ if p_value<0.05:
 else:
     print("Fail to Reject Null Hypothesis")
 ```
-![result]()
+![Result](https://github.com/Saikat-Dass/Statistical_Analysis_on_Retail_Sales_Using_Hypothesis_Testing/blob/2f55bc83888665551f28ab5e82e18d1998d1c5d1/Hypothesis%20Testing/Project%20Image/T%20test%20p%20value%20result.png)
+
 Insight : There is No significant Association between Region and Category, indicating independence between these variables.
 
 <h2>ANNOVA :</h2>
