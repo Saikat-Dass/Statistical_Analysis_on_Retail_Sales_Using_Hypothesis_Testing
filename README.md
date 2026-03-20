@@ -45,7 +45,8 @@ data
 ```python
 sns.boxplot(x='Region', y='Discount', data=data)
 ```
-![boxplot]()
+![boxplot](https://github.com/Saikat-Dass/Statistical_Analysis_on_Retail_Sales_Using_Hypothesis_Testing/blob/636a4b89d48852081ada8ac71b06d3a264613eb6/Hypothesis%20Testing/Project%20Image/Boxplot.png)
+
 Description : Boxplot helps in visualizing the distribution, spread and outliers in Discounts across Different Regions.
 
 <h2>Two Sample T-Test :</h2>
@@ -57,7 +58,7 @@ df_West_region_sales = df_data[df_data['Region']=="West"]['Sales']
 ttest, p_value = ttest_ind(a = df_East_region_sales, b = df_West_region_sales, equal_var=False)
 print("P Value = ",p_value)
 ```
-![p value]()
+![p value](https://github.com/Saikat-Dass/Statistical_Analysis_on_Retail_Sales_Using_Hypothesis_Testing/blob/ef3eb388c88147096ec7e6de35999a264268fcec/Hypothesis%20Testing/Project%20Image/T%20test%20P%20value.png)
 
 <h2>Result Interpretation :</h2>
 
