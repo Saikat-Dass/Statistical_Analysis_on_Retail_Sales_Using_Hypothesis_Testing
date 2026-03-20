@@ -68,7 +68,8 @@ if p_value<0.05:
 else:
     print("Fail to Reject Null Hypothesis")
 ```
-![Result]()
+![Result](https://github.com/Saikat-Dass/Statistical_Analysis_on_Retail_Sales_Using_Hypothesis_Testing/blob/2f55bc83888665551f28ab5e82e18d1998d1c5d1/Hypothesis%20Testing/Project%20Image/T%20test%20p%20value%20result.png)
+
 Insight : The Test showed No statistically significant Difference in Average Sales between East and West Regions.
 
 <h2>Chi - Square Test :</h2>
